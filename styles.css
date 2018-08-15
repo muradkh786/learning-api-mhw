@@ -1,0 +1,77 @@
+body {
+    background-color: #c5c5c5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 900'%3E%3Cpath fill='%23e2e2e2' d='M0 504 0 899 1600 899 1600 120z'/%3E%3Cpath fill='%23f3f3f3' d='M1600 567 1600 899 0 899 0 165z'/%3E%3Cpath fill='%239d9d9d' d='M0 680 0 899 1600 899 1600 300z'/%3E%3Cpath fill='%23b6b6b6' d='M1600 719 1600 899 0 899 0 353z'/%3E%3Cpath fill='%23666666' d='M0 788 0 899 1600 899 1600 625z'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+    text-align: center;
+    font-family: "Cairo";
+    color: #fff;
+}
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1rem;
+/*  border: 1px solid gray;*/
+    text-align: center;
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.card h1, p {
+    color: #fff;
+}
+
+.card h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    background-color: #777;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .card {
+        flex: 1 1 calc(33% - 2rem);
+    }
+}
+
+/*
+.sharpness span {
+
+display: inline-block;
+}
+
+#red {
+background-color: red;
+width: 25px;
+}
+
+#orange {
+background-color: orange;
+width: 12px;
+}
+
+#yellow {
+background-color: yellow;
+width: 13px;
+}
+
+#green {
+background-color: red;
+width: 0px;
+display: none;
+}*/
