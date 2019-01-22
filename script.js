@@ -23,7 +23,8 @@ request.onload = function () {
 //        console.log(weapon.name);   
         
         const card = document.createElement('div');
-        card.setAttribute('class', 'card');
+//         card.setAttribute('class', 'card');
+        card.className = 'card' + ' ' + weapon.type;
         
         const h1 = document.createElement('h1');
         h1.textContent = weapon.name;
