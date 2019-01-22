@@ -34,11 +34,17 @@ request.onload = function () {
         const p = document.createElement("p");
         p.textContent = "Attack: " + weapon.attack.display + "\n" + "Raw: " + weapon.attack.raw;
         
+        const red = document.createElement("span");
+        red.setAttribute('id', 'red');
+        const redLen = weapon.sharpness.red;
+        red.style.width = String(redLen) + "px";
+        
         container.appendChild(card);
         
         card.appendChild(h1);
         card.appendChild(image);
         card.appendChild(p);
+        card.appendChild(red);
         
     })
 };
