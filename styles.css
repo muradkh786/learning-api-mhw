@@ -49,9 +49,15 @@ background-size: cover;
     }
 }
 
-#red {
+.red {
   height: 10px;
   background-color: red;
+  display: inline-block;
+}
+
+.orange {
+  height: 10px;
+  background-color: orange;
   display: inline-block;
 }
 
