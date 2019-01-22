@@ -39,12 +39,18 @@ request.onload = function () {
         const redLen = weapon.sharpness.red;
         red.style.width = String(redLen) + "px";
         
+        const orange = document.createElement("span");
+        orange.setAttribute('class', 'orange');
+        const orangeLen = weapon.sharpness.orange;
+        orange.style.width = String(orangeLen) + "px";
+        
         container.appendChild(card);
         
         card.appendChild(h1);
         card.appendChild(image);
         card.appendChild(p);
         card.appendChild(red);
+        card.appendChild(orange);
         
     })
 };
