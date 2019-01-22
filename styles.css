@@ -49,6 +49,13 @@ background-size: cover;
     }
 }
 
+#red {
+  height: 10px;
+  background-color: red;
+  display: inline-block;
+}
+
+
 /*
 .sharpness span {
 
