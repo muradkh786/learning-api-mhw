@@ -44,13 +44,36 @@ request.onload = function () {
         const orangeLen = weapon.sharpness.orange;
         orange.style.width = String(orangeLen) + "px";
         
+        const yellow = document.createElement("span");
+        yellow.setAttribute('class', 'yellow');
+        const yellowLen = weapon.sharpness.yellow;
+        yellow.style.width = String(yellowLen) + "px";
+        
+        const green = document.createElement("span");
+        green.setAttribute('class', 'green');
+        const greenLen = weapon.sharpness.green;
+        green.style.width = String(greenLen) + "px";
+        
+        const blue = document.createElement("span");
+        blue.setAttribute('class', 'blue');
+        const blueLen = weapon.sharpness.blue;
+        blue.style.width = String(blueLen) + "px";
+        
+        const white = document.createElement("span");
+        white.setAttribute('class', 'white');
+        const whiteLen = weapon.sharpness.white;
+        white.style.width = String(whiteLen) + "px";white
+        
         container.appendChild(card);
         
         card.appendChild(h1);
         card.appendChild(image);
         card.appendChild(p);
         card.appendChild(red);
-        card.appendChild(orange);
+        card.appendChild(yellow);
+        card.appendChild(green);
+        card.appendChild(blue);
+        card.appendChild(white);
         
     })
 };
