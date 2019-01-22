@@ -63,25 +63,25 @@ background-size: cover;
 
 .yellow {
   height: 10px;
-  background-color: orange;
+  background-color: yellow;
   display: inline-block;
 }
 
 .green {
   height: 10px;
-  background-color: orange;
+  background-color: green;
   display: inline-block;
 }
 
 .blue {
   height: 10px;
-  background-color: orange;
+  background-color: blue;
   display: inline-block;
 }
 
 .white {
   height: 10px;
-  background-color: orange;
+  background-color: white;
   display: inline-block;
 }
 
