@@ -61,6 +61,29 @@ background-size: cover;
   display: inline-block;
 }
 
+.yellow {
+  height: 10px;
+  background-color: orange;
+  display: inline-block;
+}
+
+.green {
+  height: 10px;
+  background-color: orange;
+  display: inline-block;
+}
+
+.blue {
+  height: 10px;
+  background-color: orange;
+  display: inline-block;
+}
+
+.white {
+  height: 10px;
+  background-color: orange;
+  display: inline-block;
+}
 
 /*
 .sharpness span {
