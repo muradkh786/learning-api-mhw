@@ -70,6 +70,7 @@ request.onload = function () {
         card.appendChild(image);
         card.appendChild(p);
         card.appendChild(red);
+        card.appendChild(orange);
         card.appendChild(yellow);
         card.appendChild(green);
         card.appendChild(blue);
