@@ -35,7 +35,7 @@ request.onload = function () {
         p.textContent = "Attack: " + weapon.attack.display + "\n" + "Raw: " + weapon.attack.raw;
         
         const red = document.createElement("span");
-        red.setAttribute('id', 'red');
+        red.setAttribute('class', 'red');
         const redLen = weapon.sharpness.red;
         red.style.width = String(redLen) + "px";
         
