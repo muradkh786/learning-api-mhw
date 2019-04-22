@@ -37,32 +37,32 @@ request.onload = function () {
         
         const red = document.createElement("span");
         red.setAttribute('class', 'red');
-        const redLen = weapon.sharpness.red;
+        const redLen = weapon.durability.red;
         red.style.width = String(redLen) + "px";
         
         const orange = document.createElement("span");
         orange.setAttribute('class', 'orange');
-        const orangeLen = weapon.sharpness.orange;
+        const orangeLen = weapon.durability.orange;
         orange.style.width = String(orangeLen) + "px";
         
         const yellow = document.createElement("span");
         yellow.setAttribute('class', 'yellow');
-        const yellowLen = weapon.sharpness.yellow;
+        const yellowLen = weapon.durability.yellow;
         yellow.style.width = String(yellowLen) + "px";
         
         const green = document.createElement("span");
         green.setAttribute('class', 'green');
-        const greenLen = weapon.sharpness.green;
+        const greenLen = weapon.durability.green;
         green.style.width = String(greenLen) + "px";
         
         const blue = document.createElement("span");
         blue.setAttribute('class', 'blue');
-        const blueLen = weapon.sharpness.blue;
+        const blueLen = weapon.durability.blue;
         blue.style.width = String(blueLen) + "px";
         
         const white = document.createElement("span");
         white.setAttribute('class', 'white');
-        const whiteLen = weapon.sharpness.white;
+        const whiteLen = weapon.durability.white;
         white.style.width = String(whiteLen) + "px";white
         
         container.appendChild(card);
