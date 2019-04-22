@@ -73,6 +73,7 @@ request.onload = function () {
         card.appendChild(image);
         card.appendChild(p);
         
+        /*
         if(weapon.type != "light-bowgun" || weapon.type != "heavy-bowgun") {
         card.appendChild(red);
         card.appendChild(orange);
@@ -81,6 +82,7 @@ request.onload = function () {
         card.appendChild(blue);
         card.appendChild(white);
         }
+        */
         
     })
 };
