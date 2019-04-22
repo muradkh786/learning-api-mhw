@@ -5,7 +5,7 @@ var request = new XMLHttpRequest();
 request.open('GET', 'https://mhw-db.com/weapons', true);
 
 request.onload = function () {
-    
+    console.log("Reached Onload");
     const app = document.getElementById("root");
         
     const container = document.createElement("div");
@@ -20,7 +20,7 @@ request.onload = function () {
     
     data.forEach(weapon => {
 //        console.log(weapon.assets.image);
-//        console.log(weapon.name);   
+        console.log(weapon.name);   
         
         const card = document.createElement('div');
 //         card.setAttribute('class', 'card');
