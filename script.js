@@ -37,7 +37,9 @@ request.onload = function () {
         
         const red = document.createElement("span");
         red.setAttribute('class', 'red');
-        const redLen = weapon.sharpness.red;
+        if(weapon.sharpness.red) {
+            const redLen = weapon.sharpness.red;
+        }
         red.style.width = String(redLen) + "px";
         
         const orange = document.createElement("span");
