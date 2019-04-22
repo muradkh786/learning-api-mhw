@@ -35,11 +35,11 @@ request.onload = function () {
         const p = document.createElement("p");
         p.textContent = "Attack: " + weapon.attack.display + "\n" + "Raw: " + weapon.attack.raw;
         
-        const red = document.createElement("span");
-        red.setAttribute('class', 'red');
-        if(weapon.sharpness.red) {
-            const redLen = weapon.sharpness.red;
-        }
+        //const red = document.createElement("span");
+        //red.setAttribute('class', 'red');
+        //if(weapon.sharpness.red) {
+           // const redLen = weapon.sharpness.red;
+       // }
         red.style.width = String(redLen) + "px";
         
         const orange = document.createElement("span");
