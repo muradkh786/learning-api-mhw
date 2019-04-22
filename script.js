@@ -35,6 +35,7 @@ request.onload = function () {
         const p = document.createElement("p");
         p.textContent = "Attack: " + weapon.attack.display + "\n" + "Raw: " + weapon.attack.raw;
         
+        /*
         if(weapon.type != "light-bowgun" || weapon.type != "heavy-bowgun") {
         const red = document.createElement("span");
         red.setAttribute('class', 'red');
@@ -66,6 +67,7 @@ request.onload = function () {
         const whiteLen = weapon.durability.white;
         white.style.width = String(whiteLen) + "px";white
         }
+        */
         
         container.appendChild(card);
         
