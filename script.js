@@ -40,7 +40,7 @@ request.onload = function () {
         //if(weapon.sharpness.red) {
            // const redLen = weapon.sharpness.red;
        // }
-        red.style.width = String(redLen) + "px";
+        //red.style.width = String(redLen) + "px";
         
         const orange = document.createElement("span");
         orange.setAttribute('class', 'orange');
