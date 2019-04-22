@@ -35,6 +35,7 @@ request.onload = function () {
         const p = document.createElement("p");
         p.textContent = "Attack: " + weapon.attack.display + "\n" + "Raw: " + weapon.attack.raw;
         
+        if(weapon.type != "light-bowgun" || weapon.type != "heavy-bowgun") {
         const red = document.createElement("span");
         red.setAttribute('class', 'red');
         const redLen = weapon.durability.red;
@@ -64,18 +65,22 @@ request.onload = function () {
         white.setAttribute('class', 'white');
         const whiteLen = weapon.durability.white;
         white.style.width = String(whiteLen) + "px";white
+        }
         
         container.appendChild(card);
         
         card.appendChild(h1);
         card.appendChild(image);
         card.appendChild(p);
+        
+        if(weapon.type != "light-bowgun" || weapon.type != "heavy-bowgun") {
         card.appendChild(red);
         card.appendChild(orange);
         card.appendChild(yellow);
         card.appendChild(green);
         card.appendChild(blue);
         card.appendChild(white);
+        }
         
     })
 };
